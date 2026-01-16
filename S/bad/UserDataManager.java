@@ -1,4 +1,4 @@
-package TareaPrincipiosDise-o.S.bad;
+package S.bad;
 public class UserDataManager {
     private String username;
     private String password;

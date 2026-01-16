@@ -1,8 +1,8 @@
-package TareaPrincipiosDise-o.S.fixed;
+package S.fixed;
 
 public class UserValidator {
   
-     private boolean validateUsername(String username) {
+     private boolean validateUserName(String username) {
         return username != null && username.length() >= 5 && username.matches("[a-zA-Z_0-9]+");
     }
 
@@ -11,7 +11,7 @@ public class UserValidator {
     }
 
     public boolean validateUser(User user){
-        return validateUser(user.getUsername) && validatePassword(user.getPassword());
+        return validateUserName(user.getUsername()) && validatePassword(user.getPassword());
     }
     
 }

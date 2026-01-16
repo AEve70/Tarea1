@@ -1,4 +1,5 @@
-package TareaPrincipiosDise-o;
+package S.fixed;
+
 import java.util.Scanner;
 
 public class IOManager {

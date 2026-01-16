@@ -1,4 +1,4 @@
-package TareaPrincipiosDise-o.S.fixed;
+package S.fixed;
 
 // User class representing a user entity
 
