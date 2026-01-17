@@ -34,7 +34,7 @@ public class UserService {
             return;
         }
 
-        // Verificar contraseña
+        // Verify password
         if (!storedUser.getPassword().equals(password)) {
             IOManager.print("Incorrect password");
             return;
